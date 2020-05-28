@@ -47,6 +47,32 @@ body{
 	background: grey;
 	margin-top: 20px;
 }
+.block1_three{
+	width: 960px;
+	height:100%;
+	border-radius: 10px;
+	background: grey;
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+}
+.block1_six{
+	width: 960px;
+	height:100%;
+	border-radius: 10px;
+	background: grey;
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+}
+.block1_five{
+	width: 960px;
+	height:100%;
+	border-radius: 10px;
+	background: grey;
+	display: flex;
+	margin-top: 30px;
+}
 .foto_block_one{
 	width: 350px;
 	height: 270px;
@@ -182,6 +208,53 @@ footer{
 	margin-top: -200px;
 	clear: both;	
 }
+
+/*Третя стора*/
+.block1_0_img_text{
+width: 960px;
+height: 100%;
+background: grey;
+display: flex;
+border-radius: 10px;
+flex-direction: row;
+justify-content: space-between;
+}
+.block1_0_img{
+	width: 350px;
+	height: 400px;
+	margin-top: 40px;
+	margin-left: 10px;
+}
+.block1_1_img{
+	width: 360px;
+	height: 400px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+.block1_2_img{
+	width: 350px;
+	height: 400px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+.block1_3_img{
+	width: 350px;
+	height: 400px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+.h1_block1{
+	text-align: center;
+	color: black;
+}
+.h2_block1{
+	text-align: center;
+	margin-left: 10px;	
+}
+
 /*Анімації*/
 .p1{
 	width: 200px;
@@ -422,96 +495,72 @@ label, a{ /*при наведении на стрелки или переклю�
 #controls label{ /*прозрачность стрелок при отводе курсора*/
 	transition: opacity 0.2s ease-out;
 }
-/*Третя сторінка*/
-
-
-
-/*Четверта сторінка*/
-.diagram_mega{
-	text-align: center;
-	color: white;
-	opacity: 1;
-	margin-bottom: -10px;
 }
-.diagram_mega2{
-	text-align: center;
-	color: white;
-	margin-bottom: -10px;
-}
-.mega{
+
+
+/*пята сторінка*/
+
+.diagrams{
 	width: 960px;
 	height: 100%;
-	margin-bottom: 50px;
-}
-.diagram_block{
-	width: 960px;
-	height: 100%;
-	background: grey;
-	border-radius: 20px;	
-	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
 
 }
-.diagram_rar{
-	width: 400px;
+.diagrams2{
+	width: 960px;
+	height: 100%;
+	margin-left: -960px;
+	margin-top: 300px;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+
+}
+.p_five_d{
+	width: 460px;
+	width: 960px;
+	display: flex;
+	justify-content: space-around;
+}
+.img_five_d{
+	width: 460px;
 	height: 200px;
-	margin-left: 80px;
-	border-radius: 30px;
-
-}
-.diagramm_name{
-	margin-left: 80px;
-	size: 60px;
+	border-radius: 10px;
+	margin-left: 12px;
 }
 
-.diagramm_blocks{
-	width: 960px;
-	height: 400px;
-	display: flex;
 
-}
-.diagramm_blocks2{
-	width: 960px;
-	height: 400px;
-	display: flex;
-
-}
-.diagramm_blocks3{
-	width: 960px;
-	height: 400px;
-	display: flex;
-
-}
-.diagramm_blocks4{
-	width: 960px;
-	height: 400px;
-	display: flex;
-
-}
-
-.diagramms{
-	width: 960px;
-	height: 100%;
-	display: flex;
-}
 /*Шоста сторінка*/
-.about_it{
+.box_chek{
+	width: 960px;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.box_five{
+	width: 350px;
+	height:350px;
+}
+.img_fiveST{
+	width: 60px;
+	height: 60px;
+}
+
+.ff1{
+	text-align: center;
+}
+.ff3{
 	width: 960px;
 	height: 100%;
 
 }
-.about_1{
+.ff3_foto{
+	width: 400px;
+	height: 100px;
+	background: ;
 	display: flex;
-	align-items: center;
+	justify-content: space-between;
 }
-.about_it_one{
-	width: 470px;
-	text-align: center;
-	background: grey;
-	border-radius: 30px;
-
-}
-
-
-
-
 
